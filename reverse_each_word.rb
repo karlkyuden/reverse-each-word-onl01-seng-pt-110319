@@ -4,7 +4,7 @@ def reverse_each_word (phrase)
   splitWords = []
   pp newPhrase
   newPhrase.map do |words|
-    puts words
+    puts words.reverse
 
   end
   splitWords
