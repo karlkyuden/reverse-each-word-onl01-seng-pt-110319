@@ -7,8 +7,8 @@ def reverse_each_word (phrase)
     splitWords << words.reverse
 
   end
-  splitWords = splitWords.join(" ")
-  return 
+  splitWords.join(" ")
+   
   
 
   
