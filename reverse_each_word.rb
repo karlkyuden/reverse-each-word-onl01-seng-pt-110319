@@ -2,7 +2,7 @@ def reverse_each_word (phrase)
   
   newPhrase = phrase.split
   splitWords = []
-  
+  pp newPhrase
   newPhrase.map do |words|
     index = 0
     while index < words.length do
