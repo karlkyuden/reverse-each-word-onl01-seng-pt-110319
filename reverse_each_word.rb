@@ -9,10 +9,7 @@ def reverse_each_word (phrase)
   end
   splitWords.join(" ")
    
-  
 
-  
-  
   # newPhrase = phrase.split
   # reverseWords = []
   # index = 0
