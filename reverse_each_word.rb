@@ -4,11 +4,8 @@ def reverse_each_word (phrase)
   splitWords = []
   pp newPhrase
   newPhrase.map do |words|
-    index = 0
-    while index < words.length do
-      puts words[index]
-      index += 1
-    end
+    puts words
+
   end
   splitWords
   
